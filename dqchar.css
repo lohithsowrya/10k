@@ -1,0 +1,108 @@
+/* Reset and Base */
+* {
+    background-color: antiquewhite;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.container, .dq {
+    background-color: antiquewhite;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    height: 800px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Image Blocks */
+.movie1, .movie2, .movie3, .movie4 {
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.movie1 {
+    padding-left: 80px;
+}
+
+/* Images */
+.movie1 img, .movie2 img, .movie3 img, .movie4 img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 400px;
+    padding: 4px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.movie1 img {
+    border-color: rgb(17, 16, 16);
+}
+.movie2 img {
+    border-color: #d74e4e;
+}
+.movie3 img {
+    border-color: rgb(11, 158, 250);
+}
+.movie4 img {
+    border-color: rgb(231, 25, 25);
+}
+
+/* Optional Text Styling */
+.h3 {
+    font-weight: 100;
+    text-align: center;
+}
+
+
+/* Extra Section */
+.grand {
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(6, 6, 6);
+    padding: 20px;
+    position: relative;
+    margin: 2px;
+}
+
+/* Individual Images or Blocks */
+.ram, .kurup, .aadhi, .sid ,.ganesh{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 40px;
+    vertical-align: top;
+}
+
+/* Paragraph Overlay Text */
+p {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 161px;
+}
+
+/* Special heading position */
+.h1 {
+    position: absolute;
+    bottom: 200px;
+}
+.text {
+    background-color:antiquewhite;
+    color: black;
+    position: static;
+    padding-top: 20px;
+    border-radius: 6px;
+}
